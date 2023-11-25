@@ -1,0 +1,334 @@
+*{
+    padding: 0; 
+    margin:0; 
+    box-sizing: border-box;
+    font-family: 'Times New Roman';
+}
+
+body{
+	scroll-behavior: smooth;
+	overflow-x: hidden;
+	margin: 0;
+  	padding: 0;
+}
+
+
+.s2{
+	text-align: center;
+	font-size: 30px;
+}
+.sub{
+	width: 80px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	font-size: 15px;
+	border: none;
+	border-radius: 4px;	
+	margin-left: 140px;
+}
+
+form{
+    padding:20px;
+}
+div.mainf{
+    margin-top: 130px;
+    margin-left: 80px;
+    margin-bottom: 25px;
+    width: 1100px;
+    height: 80px;
+    box-shadow: 0 0 10px #262626;
+    border-radius: 6px;
+}
+.mainform{
+    display: flex;
+}
+.mainform select{
+    width: 350px;
+    height: 40px;
+    font-size: 20px;
+    border: 2px solid rgb(68, 68, 68);
+    border-radius: 4px;
+}
+.mainform select option{
+    padding: 50px;
+}
+.form-control{
+    margin-left: 0px;
+}
+.distr{
+    margin-left: 25px;
+}
+.bmainf{
+    margin-left: 25px;
+    width: 310px;
+    height: 40px;
+    background-color: black;
+    color: white;
+    border-radius: 6px;
+    font-size: 20px;
+    border: none;
+}
+.bmainf:hover{
+    background-color: #262626;
+    cursor: pointer;
+}
+div.moref1{
+    margin-left: 80px;
+    margin-bottom: 25px;
+    width: 285px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px gray;
+    padding: 15px;
+}
+div.moref2{
+    margin-left: 80px;
+    margin-bottom: 25px;
+    width: 285px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px gray;
+    padding: 15px;
+}
+/* Hide the default checkbox */
+.customCheckboxLabel input[type="checkbox"] {
+    position: absolute;
+    opacity: 0;
+  }
+  
+  /* Style the custom checkbox */
+  .customCheckbox {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    border: 1px solid #999;
+    border-radius: 3px;
+    position: relative;
+    vertical-align: middle;
+    cursor: pointer;
+    margin-right: 5px;
+  }
+  
+  /* Checked state for the custom checkbox */
+  .customCheckbox::after {
+    content: "";
+    position: absolute;
+    display: none;
+    left: 5px;
+    top: 2px;
+    width: 6px;
+    height: 10px;
+    border: solid #000;
+    border-width: 0 2px 2px 0;
+    transform: rotate(45deg);
+  }
+  
+  /* Checked state style */
+  .customCheckboxLabel input[type="checkbox"]:checked + .customCheckbox::after {
+    display: block;
+  }
+  
+.moref3{
+    margin-left: 80px;
+    margin-bottom: 25px;
+    width: 285px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px gray;
+    padding: 15px;
+}
+
+div.megacontainer{
+    display: flex;
+    margin-bottom: 25px;
+}
+div.container91{
+    line-height: 2;
+}
+div.container90{
+    width: 790px;
+    margin-left: 25px;
+    margin-bottom: 25px;
+    border-radius: 6px;
+    box-shadow: 0 0 15px gray;
+    display: flex;
+    flex-direction: row;
+    flex-basis: 20%;
+    justify-content: space-between;
+    
+   
+   
+  
+}
+
+div.cards{
+    width: 230px;
+    height: fit-content;
+    border-radius: 6px;
+    box-shadow: 0 0 10px gray;
+    justify-content: space-between;
+    margin: 15px;
+}
+
+
+div.cards:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+div.cards img{
+    width: 230px;
+    height: 230px;
+    border-top-right-radius: 6px;
+    border-top-left-radius: 6px;
+}
+
+.s2{
+	text-align: center;
+	font-size: 30px;
+}
+.sub{
+	width: 80px;
+	height: 40px;
+	background-color: green;
+	color: white;
+	font-size: 15px;
+	border: none;
+	border-radius: 4px;	
+	margin-left: 140px;
+}
+.overlay {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.7); /* Adjust the opacity as needed */
+    z-index: 999;
+}
+
+/* Styles for the centered popup */
+.popup2 {
+    display: none;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    background: #fff;
+    border-radius: 6px;
+    text-align: center;
+    padding: 20px;
+    z-index: 1000;
+}
+div.popup2 img{
+	margin-top: -50px;
+	width: 100px;
+	height: 100px;
+}
+button.bpop2{
+	width: 80px;
+	height: 40px;
+	background-color: green;
+	border-radius: 5px;
+	color: white;
+	margin-left: 0px;
+	border: none;
+}
+button.bpop2:hover{
+	background-color: rgb(1, 98, 1);
+    cursor: pointer;
+}
+div.mcont{
+    display: flex;
+    flex-direction: row;
+    margin-left: 80px;
+    margin-bottom: 25px;
+}
+div.dogadp{
+    width: 540px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    background-image: url(dogadp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.dogadp img{
+    width: 540px;
+    height: 100px;
+    border-radius: 10px;
+}
+div.dogadp:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+div.catadp{
+    width: 540px;
+    height: 100px;
+    border-radius: 10px;
+    border: none;
+    margin-left: 20px;
+    background-image: url(catadp.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+div.catadp img{
+    width: 540px;
+    height: 100px;
+    border-radius: 10px;
+}
+div.catadp:hover{
+    box-shadow: 0 0 10px black;
+    cursor: pointer;
+}
+.adptext{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+    text-shadow: 0 0 35px black;
+}
+div.sec2{
+    margin-left: 8px;
+}
+div.sec2a{
+    display: flex;
+    margin-top: 10px;
+}
+div.sec2b{
+    display: flex;
+    margin-top: 6px;
+    margin-bottom: 10px;
+}
+.Name{
+    font-size: 25px;
+}
+.Breed{
+    color: #6e6d6d;
+    font-size: 18px;
+}
+.Gender{
+    color: #6e6d6d;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.Age{
+    color: #6e6d6d;
+    font-size: 18px;
+    margin-left: 40px;
+}
+.Weight{
+    color: #6e6d6d;
+    font-size: 18px;
+}
+.Location{
+    color: #6e6d6d;
+    font-size: 18px;
+    margin-left: 32px;
+}
+
+
+.smallCheckbox {
+    transform: scale(0.4); /* Adjust the scale as needed */
+    margin-left: -50px;
+    
+  }
+
+ 

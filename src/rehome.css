@@ -1,0 +1,83 @@
+
+
+.container88 {
+    max-width: 800px;
+    margin: 100px auto;
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 30px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-bottom: 100px;
+}
+
+.heads {
+    font-size: 40px;
+}
+
+form {
+    margin-top: 20px;
+    padding-bottom: 60px;
+}
+
+.customLabel22{
+    display: block;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.selectstyle, input, textarea {
+    width: 70%;
+    padding: 10px;
+    border: 1.5px solid black;
+    border-radius: 5px;
+    margin-top: 5px;
+}
+
+.submitform {
+    margin-top: 20px;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.submitform22:hover {
+    background-color: #0056b3;
+}
+
+#thankYou {
+    text-align: center;
+    margin-top: 20px;
+    font-weight: bold;
+    display: none;
+    color: #009900;
+}
+
+form{
+    padding:20px;
+}
+
+.form-control{
+    margin-left: 25px;
+}
+
+
+button.submitform{
+    width: 100px;
+    height: 45px;
+    background-color: #009900;
+    color: white;
+    border-radius: 6px;
+    border: none;
+    margin-left: 200px;
+}
+button.submitform:hover{
+    background-color: #016e01;
+    box-shadow: 0 0 10px black;
+}
+.photosform{
+    border: none;
+}
